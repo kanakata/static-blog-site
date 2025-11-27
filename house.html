@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeGPeM</title>
+    <link rel="shortcut icon" href="./icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <nav class="navbar">
+        <div class="join">
+            <a href="index.html" class="back">back</a>
+        </div>
+        <h2><img src="./icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            <button><a href="sign_up.html">create</a></button>
+        </div>
+        <div class="links_ss">
+            <a href="index.html" class="back">back</a>
+            <button><a href="sign_up.html">create</a></button>
+            <a href="#"><img src="./icons/instagram_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/facebook_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/twitter_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/youtube_icon.png" alt=""></a>
+        </div>
+        <img src="./icons/menu.png" alt="" class="menu_display">
+    </nav>
+
+    <!-- <nav>
+        <div class="join">
+            <a href="index.html" class="back">back</a>
+        </div>
+        <h2><img src="/icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            <button><a href="sign_up.html">create</a></button>
+        </div>
+        <img src="/icons/menu.png" alt="" class="menu_display">
+    </nav> -->
+
+    <section class="section1">
+        <h2>by elizabeth muthoni</h2>
+        <h1>The Housing Headaches   </h1>
+        <p>The Housing Headaches: Why Homes Are Harder to Find and Afford </p>
+        <img src="./header images/Kenyan Govt Signs Affordable Housing Deals With 26 Counties.jpg" alt="">
+        <div class="contentholder">
+            <div class="holder2">
+                <h1>Sky-High Prices & Affordability Gap </h1>
+                <p>While home price growth has slowed in some markets, values remain near historic peaks, 
+significantly outpacing income growth for decades. In the US, for instance, the median house 
+price has risen to over five times the median household's annual income, compared to about 
+3.5 times in the 1980s. 
+• Financialization of Housing: Housing has increasingly been treated as an investment 
+tool rather than a social necessity. This attracts large institutional investors who buy up 
+available properties, limiting supply and driving up prices for typical families. 
+• Rising Hidden Costs: Beyond the mortgage, annual "hidden" costs like insurance, 
+property taxes, and maintenance are surging, hitting first-time buyers and those in high
+cost metro areas the hardest. </p>
+                <h2>The Interest Rate "Lock-In" Effect</h2>
+                <p>In an effort to combat inflation, central banks worldwide raised interest rates. While this was 
+intended to cool demand, it has had an unusual effect on the housing supply: 
+• Sidelined Buyers: Higher rates mean monthly mortgage payments are drastically more 
+expensive, significantly reducing the purchasing power and ability of potential buyers to 
+qualify for a loan. 
+• Stuck Sellers (Low Inventory): Many existing homeowners refinanced during the period 
+of historically low rates (2020-2022). They are now reluctant to sell their homes, as 
+doing so would mean trading their existing low-rate mortgage for a much higher one on 
+a new property. This 'lock-in' effect keeps a large number of potential homes off the 
+market, exacerbating the supply shortage. </p>
+              <h2> The Decades-Long Supply Shortage </h2>
+              <p>The lack of available homes (low inventory) is not a new issue; it's a structural problem 
+compounded by recent events: 
+• Underbuilding since 2008: Following the Great Recession, new home construction 
+dropped precipitously and has largely failed to keep pace with population growth and 
+demand. 
+• High Construction Costs: Builders face high costs for land, materials, and a persistent 
+shortage of skilled labor, which makes it less profitable to build, particularly for lower
+priced, affordable housing. 
+• Restrictive Zoning and Regulation: Local regulations and zoning laws (often driven by 
+NIMBY—Not In My Backyard—opposition) restrict housing density and slow down the 
+approval process, preventing new supply from meeting demand. </p>
+              <h2>Impact on the Housing Market </h2>
+              <p>This collision of high prices, high rates, and low inventory creates a stagnant, yet fiercely 
+competitive, market: 
+Affected Group Impact 
+First-Time 
+Buyers 
+Completely priced out. They face a highly competitive market where high 
+prices and high monthly payments create an insurmountable barrier. 
+Current 
+Homeowners 
+Those with low-rate mortgages are "locked in," delaying moves for work or 
+family changes, which decreases overall mobility. 
+The Economy 
+Housing transactions have slowed significantly, dragging down economic 
+activity and creating risks of economic instability if prices become completely 
+detached from fundamental values (income/rents). 
+The challenge for policymakers is balancing the need to build more affordable housing (supply
+side fix) with managing the high costs and elevated interest rates (demand-side pressures). 
+</p>
+              
+            </div>
+            <div class="holder3">
+                <div class="details">
+                    <h2>details</h2>
+                    <div class="detail">
+                        <h2>current date <span>2 nov 2025</span></h2>
+                        <h2>category <span>business</span></h2>
+                        <h2>publish date <span>12 oct 2025</span></h2>
+                    </div>
+                </div>
+                <div class="authormessage">
+                    <h2>author</h2>
+                    <div class="details">
+                        <img src="./profilepicture/user1.jpg" alt="">
+                        <div class="detail">
+                            <h2>elizabet muthoni</h2>
+                            <h2>housing agent</h2>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <p>share with friends and family.</p>
+                    </div>
+                </div>
+                <div class="likes">
+                    <form action="">
+                        <label for="like"><input type="checkbox" name="like" id="">like</label>
+                        <label for="dislike"><input type="submit" name="like" id=""></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>&copy copyright <a href="#">pegpem</a> terms and privacy.</h2>
+    </footer>
+
+    <script>
+        let menu = document.querySelector(".menu_display")
+        let links_ss = document.querySelector(".links_ss")
+
+    menu.addEventListener("click", ()=>{
+        links_ss.classList.toggle("show")
+    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more</title>
+    <link rel="shortcut icon" href="./icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="join">
+            <a href="index.html" class="back">back</a>
+        </div>
+        <h2><img src="./icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            <button><a href="sign_up.html">create</a></button>
+        </div>
+        <div class="links_ss">
+            <a href="index.html" class="back">back</a>
+            <button><a href="sign_up.html">create</a></button>
+            <a href="#"><img src="./icons/instagram_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/facebook_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/twitter_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/youtube_icon.png" alt=""></a>
+        </div>
+        <img src="./icons/menu.png" alt="" class="menu_display">
+    </nav>
+    
+
+
+     <section class="categories_post">
+        <div class="contentholder2">
+            <h2><span></span>music<span></span></h2>
+            <a href="music.html" class="blog">
+                   <img src="./header images/KENYAN PODCAST.jpg" alt="">
+                   <div class="content">
+                     <h3>purity achieng.  nov 1 2025 <span>20k likes</span></h3>
+                     <h2>The Kenyan Vibe Check</h2>
+                     <p>The Kenyan music scene is a magnificent tapestry woven from traditional rhythms, colonial-era...</p>
+                   </div>
+                </a>
+        </div>
+        <div class="category_paginations">
+            <a href="" class="prev">prev</a>
+              <div class="category_pagination">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+              </div>
+            <a href="" class="next">next</a>
+        </div>
+    </section>
+
+<script>
+    let menu = document.querySelector(".menu_display")
+    let links_ss = document.querySelector(".links_ss")
+
+    menu.addEventListener("click", ()=>{
+        links_ss.classList.toggle("show")
+    })
+</script>    
+</body>
+</html>

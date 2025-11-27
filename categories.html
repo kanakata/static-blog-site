@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeGPeM</title>
+    <link rel="shortcut icon" href="./icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="join">
+            <a href="index.html" class="back">back</a>
+        </div>
+        <h2><img src="./icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            <button><a href="signup.html">create</a></button>
+        </div>
+        <div class="links_ss">
+            <a href="index.html" class="back">back</a>
+            <button><a href="signup.html">create</a></button>
+            <a href="#"><img src="./icons/instagram_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/facebook_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/twitter_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/youtube_icon.png" alt=""></a>
+        </div>
+        <img src="./icons/menu.png" alt="" class="menu_display">
+    </nav>
+
+    <!-- <nav>
+        <div class="join">
+            <a href="index.html" class="back">back</a>
+        </div>
+        <h2><img src="/icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            <button><a href="signup.html">create</a></button>
+        </div>
+        <img src="/icons/menu.png" alt="" class="menu_display">
+    </nav> -->
+
+     <section class="categories_post">
+        <div class="contentholder2">
+            <h2><span></span>movies<span></span></h2>
+            <a href="#" class="blog">
+                <img src="./header images/deadpool.jpeg" alt="">
+                <div class="content">
+                    <h3>joe. mwangi.  nov 1 2025 <span>200k likes</span></h3>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, tenetur?</p>
+                </div>
+            </a>
+        </div>
+        <div class="category_paginations">
+            <a href="" class="prev">prev</a>
+              <div class="category_pagination">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+              </div>
+            <a href="" class="next">next</a>
+        </div>
+    </section>
+    
+<script>
+    let menu = document.querySelector(".menu_display")
+    let links_ss = document.querySelector(".links_ss")
+
+    menu.addEventListener("click", ()=>{
+        links_ss.classList.toggle("show")
+    })
+</script>    
+</body>
+</html>

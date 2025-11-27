@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeGPeM</title>
+    <link rel="shortcut icon" href="/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="join">
+            <a href="userdash.html" class="back">back</a>
+        </div>
+        <h2><img src="/icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+
+        </div>
+        <div class="links_ss">
+            <a href="userdash.html" class="back">back</a>
+            <a href="#"><img src="./icons/instagram_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/facebook_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/twitter_icon.png" alt=""></a>
+            <a href="#"><img src="./icons/youtube_icon.png" alt=""></a>
+        </div>
+        <img src="/icons/menu.png" alt="" class="menu_display">
+    </nav>
+
+    <!-- <nav>
+        <div class="join">
+            <a href="userdash.html" class="back">back</a>
+        </div>
+        <h2><img src="/icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            
+        </div>
+        <img src="/icons/menu.png" alt="" class="menu_display">
+    </nav> -->
+
+    <div class="post_blog">
+        <form action="" method="post">
+            <h1>your blog details goes here &#8595</h1>
+            <input type="text" name="author" placeholder="author's name"><br>
+            <input type="text" name="title" placeholder="title"><br>
+            <input type="text" name="description" placeholder="blog description"> <br>
+            <label for="">blog thumbnail</label><input type="file" name="blog_image"> <br>
+
+            <h1>your blog content goes here &#8595</h1>
+            <label for="paragraph_one_title">paragraph one</label><br>
+            <input type="text" name="paragraph_one_title" placeholder="paragraph one title"><br>
+            <textarea name="paragraph_one_content" placeholder="content goes here"></textarea><br>
+
+            <label for="paragraph_two_title">paragraph two</label><br>
+            <input type="text" name="paragraph_two_title" placeholder="paragraph two title"><br>
+            <textarea name="paragraph_two_content" placeholder="content goes here"></textarea><br>
+
+            <label for="paragraph_three_title">paragraph three</label><br>
+            <input type="text" name="paragraph_three_title" placeholder="paragraph three title"><br>
+            <textarea name="paragraph_three_content" placeholder="content goes here"></textarea><br>
+
+            <label for="paragraph_one_title">paragraph four</label><br>
+            <input type="text" name="paragraph_four_title" placeholder="paragraph four title"><br>
+            <textarea name="paragraph_four_content" placeholder="content goes here"></textarea><br>
+
+            <label for="paragraph_five_title">paragraph five</label><br>
+            <input type="text" name="paragraph_five_title" placeholder="paragraph five title"><br>
+            <textarea name="paragraph_five_content" placeholder="content goes here"></textarea><br>
+
+            <input type="submit" value="post blog">
+        </form>
+        
+    </div>
+     <footer>
+        <h2>&copy copyright <a href="#">pegpem</a> terms and privacy.</h2>
+    </footer>
+<script>
+    let menu = document.querySelector(".menu_display")
+    let links_ss = document.querySelector(".links_ss")
+
+    menu.addEventListener("click", ()=>{
+        links_ss.classList.toggle("show")
+    })
+</script>    
+</body>
+</html>

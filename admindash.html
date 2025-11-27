@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admindash</title>
+    <link rel="shortcut icon" href="/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+
+        <div class="join">
+            <a href="log_in.html" class="back">back</a>
+        </div>
+        <h2><img src="/icons/icon.png" alt="">PeGPeM</h2>
+        <div class="links">
+            <!-- nothing goes here -->
+        </div>
+
+        <div class="links_ss">
+            <a href="#dashboard"><img src="/icons/dash icon.png" alt="">dashboard</a>
+            <a href="#post"><img src="/icons/Innovation.png" alt="">view bloggers</a>
+            <a href="#profile"><img src="/icons/user_icon.png" alt="">edit blogger profile</a>
+            <a href="#stats"><img src="/icons/statistics icon.png" alt="">blogs stats</a>
+            <a href="#deleteprofile"><img src="/icons/user_icon.png" alt="">delete profile</a>
+            <a href="#deleteblog"><img src="/icons/user_icon.png" alt="">delete blog</a>
+            <a href="userlandingpage.html">&#8592 back</a>
+        </div>
+        <img src="/icons/menu.png" alt="" class="menu_display">
+    </nav>
+
+    <div class="userdash">
+        <div class="contentholder1">
+            <h2><img src="/icons/icon.png" alt="">PeGPeM</h2>
+            <a href="#dashboard"><img src="/icons/dash icon.png" alt="">dashboard</a>
+            <a href="#post"><img src="/icons/Innovation.png" alt="">view bloggers</a>
+            <a href="#profile"><img src="/icons/user_icon.png" alt="">edit blogger profile</a>
+            <a href="#stats"><img src="/icons/statistics icon.png" alt="">blogs stats</a>
+            <a href="#deleteprofile"><img src="/icons/user_icon.png" alt="">delete profile</a>
+            <a href="#deleteblog"><img src="/icons/user_icon.png" alt="">delete blog</a>
+            <a href="userlandingpage.html">&#8592 back</a>
+
+        </div>
+        <div class="contentholder2">
+            <div class="holder1">
+                <h2><img src="/profilepicture/user1.jpg" alt="">welcome admin</h2>
+                <h3>online...</h3>
+            </div>
+            <div class="holder2">
+                <div class="dashboard" id="dashboard">
+                    <img src="/profilepicture/user1.jpg" alt="">
+                    <h2>username : admin</h2>
+                    <h3>email: admin@gmail.com</h3>
+                </div>
+                <div class="post view" id="post">
+                    <form action="">
+                        <button><a href="view.html">view bloggers</a></button>
+
+                        <div class="bubbles">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="profile" id="profile">
+                    <form action="">
+                        <h2>update user profile</h2>
+                        <input type="text" placeholder="username"> <br>
+                        <input type="text" placeholder="new username"> <br>
+                        <input type="password" placeholder="new pasword"> <br>
+                        <input type="email" name="email" placeholder="new email"> <br>
+                        <input type="file" name="image" placeholder="new prifile picture"> <br>
+                        <input type="submit" value="update">
+                    </form>
+                </div>
+                <div class="profile" id="deleteprofile">
+                    <form action="">
+                        <h2>delete user profile</h2>
+                        <input type="text" placeholder="username"> <br>
+                        <input type="email" name="email" placeholder="email"> <br>
+                        <input type="submit" value="delete">
+                    </form>
+                </div>
+                <div class="profile" id="deleteblog">
+                    <form action="">
+                        <h2>delete blog</h2>
+                        <input type="text" placeholder="username"> <br>
+                        <input type="email" name="email" placeholder="email"> <br>
+                        <input type="number" name="deleteblog" placeholder="blog id"> <br>
+                        <input type="submit" value="delete">
+                    </form>
+                </div>
+                <div class="stats" id="stats">
+                    <button><a href="metrics.html">view metrics</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    let menu = document.querySelector(".menu_display")
+    let links_ss = document.querySelector(".links_ss")
+
+    menu.addEventListener("click", ()=>{
+        links_ss.classList.toggle("show")
+    })
+</script>   
+</body>
+</html>
